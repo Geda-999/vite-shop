@@ -2,8 +2,8 @@
     <div class="hello">
         <h1>{{ msg }}</h1>
         <div>
-            <button @click="show('list')">A页面</button>
-            <button @click="show('shop')">B页面</button>
+            <button class="bg-bootstrap_primary px-6 py-2 rounded" @click="show('list')">A页面</button>
+            <button class=" bg-pink-500 px-6 py-2 rounded" @click="show('shop')">B页面</button>
 
         </div>
     </div>
